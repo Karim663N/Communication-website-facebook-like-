@@ -1,0 +1,2 @@
+use innerHTML for messages to update live values on messages
+exemple maj dynamique : const products = document.querySelector('#products');

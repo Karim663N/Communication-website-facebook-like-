@@ -1,0 +1,64 @@
+/* Full background with light blue color */
+.register-container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px; /* Added padding to avoid edges */
+  }
+  
+  h2 {
+    color: white;
+    margin-bottom: 15px; /* Reduced bottom margin */
+  }
+  
+  /* Styling for the table */
+  .register-table {
+    border-collapse: separate;
+    border-spacing: 0 8px; /* Reduced space between rows */
+    margin-bottom: 15px;
+  }
+  
+  /* Align text labels on the left and inputs on the right */
+  .register-table td {
+    padding: 5px; /* Reduced padding */
+    text-align: left;
+  }
+  
+  /* Styling for inputs with rounded corners and white background */
+  .register-input {
+    width: 100%;
+    max-width: 250px; /* Reduced width */
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-radius: 8px; /* Reduced border-radius */
+    background-color: white;
+    margin-top: 3px; /* Reduced top margin */
+  }
+  
+  /* Button row styling */
+  .button-row {
+    text-align: center;
+    padding-top: 10px; /* Reduced padding above button */
+  }
+  
+  /* Styling for the button with rounded corners */
+  .register-button {
+    width: 100%;
+    max-width: 250px; /* Reduced width */
+    padding: 8px; /* Reduced padding */
+    background-color: white;
+    border: none;
+    border-radius: 8px; /* Reduced border-radius */
+    font-size: 14px; /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+  }
+  
+  .register-button:hover {
+    background-color: #e0e0e0; /* Light grey when hovered */
+  }
+  
