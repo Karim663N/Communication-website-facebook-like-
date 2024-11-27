@@ -1,4 +1,2 @@
-start configured server : node server.js
-start react project : npm start
 install cors : npm install cors
 npm install express-session body-parser cookie-parser
